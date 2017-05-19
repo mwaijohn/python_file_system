@@ -9,8 +9,6 @@ if os.path.exists(path):
     f.write(str(dirs[fg]))
     f.write("\n")
    f = open(ile,'r')
-   for g in f.readlines():
-       print(g)
    print("The path to the directory.txt is " +ile)
    print("items were successifully written to the file")
 else:
